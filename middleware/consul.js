@@ -1,7 +1,8 @@
 const Consul = require('consul');
 const consul = new Consul({
     host: "consul-hn1i.onrender.com",
-    port: 8500,
+    port: 443,
+    promisify: true,
     secure: true,
     timeout: 200000
 });
