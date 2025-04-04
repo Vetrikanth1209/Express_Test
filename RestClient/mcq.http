@@ -31,11 +31,11 @@ Content-Type: application/json
 DELETE http://localhost:8000/mcq/delete_mcq/dcedaa95-7985-476e-9252-8a043efc343a
 
 ### Submit Result to External Service via Consul
-POST http://localhost:8000/mcq/submit_result
+POST https://express-test-cnl6.onrender.com/mcq/submit_result
 Content-Type: application/json
 
 {
-  "result_id": "res_1234565",
+  "result_id": "res_12345gght65",
   "result_user_id": "user_67890",
   "result_test_id": "test_001",
   "result_score": 85,

@@ -1,7 +1,6 @@
 const express = require('express');
 const MCQ = require('../models/MCQ');
-const Consul = require("consul");
-const consul = new Consul();
+const consul = require("../middleware/consul");
 const axios = require("axios");
 const { v4: uuidv4 } = require("uuid");
 
