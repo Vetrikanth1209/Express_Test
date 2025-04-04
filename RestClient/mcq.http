@@ -35,10 +35,10 @@ POST https://express-test-cnl6.onrender.com/mcq/submit_result
 Content-Type: application/json
 
 {
-  "result_id": "res_12345gght65",
+  "result_id": "res_1345gght65",
   "result_user_id": "user_67890",
   "result_test_id": "test_001",
-  "result_score": 85,
+  "result_score": 5,
   "result_total_score": 100,
   "result_poc_id": "poc_965"
 }
