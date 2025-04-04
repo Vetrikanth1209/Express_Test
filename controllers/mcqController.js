@@ -148,7 +148,7 @@ router.post("/submit_result", async (req, res) => {
       return res.status(500).json({ message: "Invalid service details from Consul" });
     }
 
-    const targetUrl = `http://${ServiceAddress}/results/post-result`;
+    const targetUrl = `https://${ServiceAddress}/results/post-result`;
     console.log(`🚀 Sending request to: ${targetUrl}`); // Log the exact request URL
 
     // Send the result data to the external service
