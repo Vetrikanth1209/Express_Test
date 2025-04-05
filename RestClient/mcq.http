@@ -10,7 +10,7 @@ Content-Type: application/json
 }
 
 ### Get All MCQs
-GET http://localhost:8000/mcq/get_all_mcqs
+GET https://express-test-cnl6.onrender.com/mcq/get_all_mcqs
 
 ### Get a Single MCQ by ID
 GET http://localhost:8000/mcq/get_mcq/dcedaa95-7985-476e-9252-8a043efc343a
@@ -35,10 +35,10 @@ POST https://express-test-cnl6.onrender.com/mcq/submit_result
 Content-Type: application/json
 
 {
-  "result_id": "res_3ede345gght65",
+  "result_id": "res_3ede3hsgdjhgfd45gght65",
   "result_user_id": "user_67890",
   "result_test_id": "test_001",
-  "result_score": 5,
+  "result_score": 50,
   "result_total_score": 100,
   "result_poc_id": "poc_965"
 }
